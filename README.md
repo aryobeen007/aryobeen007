@@ -1,16 +1,61 @@
-## Hi there 👋
+# 👋 Hi, I'm Naseer Aryobee
 
-<!--
-**aryobeen007/aryobeen007** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Database/Data Engineer with 10+ years of experience working with Microsoft SQL Server/PostgreSQL in healthcare systems.
 
-Here are some ideas to get you started:
+I specialize in building scalable data solutions, ETL pipelines, and analytics platforms that turn raw data into actionable insights.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Featured Projects
+
+### 📊 Education Technology Impact Analysis
+Analyzing how technology access impacts student outcomes across U.S. public schools using federal datasets.
+
+- Data Engineering Pipeline (ETL → PostgreSQL)
+- Multi-source data integration (CCD, NAEP, CRDC)
+- Analytical modeling and visualization
+
+🔗 https://github.com/aryobeen007/education-tech-impact-analysis
+
+---
+
+### 🌐 MAPS Assessment (Production Application)
+Live platform helping users assess career readiness and career pathways.
+
+- Full-stack web application
+- Real-time user interaction
+- Deployed and actively used
+
+🔗 https://mapsassessment.com
+
+---
+
+## 🧰 Tech Stack
+
+**Databases**
+- Microsoft SQL Server
+- PostgreSQL
+
+**Data Engineering**
+- ETL Pipelines
+- Data Modeling
+- SQL Optimization
+
+**Tools**
+- Python
+- Tableau
+- Git & GitHub
+
+---
+
+## 📈 Current Focus
+
+- Building scalable data pipelines
+- Expanding analytics portfolio
+- Developing data-driven platforms
+
+---
+
+## 📫 Connect With Me
+
+- LinkedIn: https://linkedin.com/in/naseer-aryobee
