@@ -1,21 +1,44 @@
 # 👋 Hi, I'm Naseer Aryobee
 
-Database/Data Engineer with 10+ years of experience working with Microsoft SQL Server/PostgreSQL in healthcare systems.
+Database and Data Engineer with 10+ years of experience working with Microsoft SQL Server, PostgreSQL and MySQL in healthcare systems. I specialize in building scalable data solutions, ETL/ELT pipelines, and analytics platforms that turn raw data into defensible insights.
 
-I specialize in building scalable data solutions, ETL pipelines, and analytics platforms that turn raw data into actionable insights.
+🌐 **View my full portfolio at [www.nasaryobee.com](https://nasaryobee.com)** — the best place to see my work in context, with live dashboards and project case studies.
 
 ---
 
 ## 🚀 Featured Projects
 
-### 📊 Education Technology Impact Analysis
+### 🏥 Medicare Provider Spending vs Quality Analysis
+An end-to-end Databricks medallion pipeline analyzing whether Medicare actually pays more for better hospital care. Built on 10 million CMS records across 13 Delta tables.
+
+- Databricks Workflows orchestration (4-task DAG, 5m 26s end-to-end)
+- Bronze → Silver → Gold medallion architecture with Unity Catalog
+- Two dashboards: Databricks AI/BI + Tableau Public (live, public)
+- Headline finding: hospital cost-vs-quality correlation **r = 0.033** — essentially zero
+
+🔗 [GitHub repo](https://github.com/aryobeen007/medicare-provider-spending-vs-quality) · [Live project page](https://nasaryobee.com/projects/medicare-pipeline/) · [Tableau dashboard](https://public.tableau.com/app/profile/naseer3899/viz/MedicareProviderSpendingvsQuality/MedicareProviderSpendingvsQuality)
+
+---
+
+### 📊 OBBB Medicaid Medicare Impact
+A data-driven dashboard analyzing the projected 10-year impact of the OBBB Act on Medicaid, Medicare, healthcare funding, coverage losses, and state-level outcomes.
+
+- Healthcare policy modeling and forecasting
+- Multi-source federal data integration
+- Interactive dashboard for state-level exploration
+
+🔗 [Live dashboard](https://nasaryobee.com/OBBB_Impact_Dashboard_final.html)
+
+---
+
+### 🎓 Education Technology Impact Analysis
 Analyzing how technology access impacts student outcomes across U.S. public schools using federal datasets.
 
-- Data Engineering Pipeline (ETL → PostgreSQL)
+- Data engineering pipeline (ETL → PostgreSQL)
 - Multi-source data integration (CCD, NAEP, CRDC)
-- Analytical modeling and visualization
+- Quarto-based reproducible analysis
 
-🔗 https://github.com/aryobeen007/education-tech-impact-analysis
+🔗 [GitHub repo](https://github.com/aryobeen007/education-tech-impact-analysis) · [Live project page](https://nasaryobee.com/education_tech_impact_pipeline.html)
 
 ---
 
@@ -25,8 +48,9 @@ Live platform helping users assess career readiness and career pathways.
 - Full-stack web application
 - Real-time user interaction
 - Deployed and actively used
+- iOS & Android Apps
 
-🔗 https://mapsassessment.com
+🔗 [mapsassessment.com](https://mapsassessment.com)
 
 ---
 
@@ -37,25 +61,36 @@ Live platform helping users assess career readiness and career pathways.
 - PostgreSQL
 
 **Data Engineering**
-- ETL Pipelines
-- Data Modeling
-- SQL Optimization
+- Databricks (Lakehouse, Workflows, Unity Catalog)
+- PySpark & Delta Lake
+- ETL/ELT Pipelines
+- Medallion Architecture
+- Data Modeling & SQL Optimization
 
-**Tools**
+**Visualization & BI**
+- Tableau / Tableau Public
+- Databricks AI/BI Dashboards
+- Quarto
+
+**Languages & Tools**
 - Python
-- Tableau
+- SQL
+- PowerShell
 - Git & GitHub
+- Databricks CLI
 
 ---
 
 ## 📈 Current Focus
 
-- Building scalable data pipelines
-- Expanding analytics portfolio
-- Developing data-driven platforms
+- Building reproducible, production-grade data pipelines
+- Healthcare data engineering on public CMS datasets
+- Translating complex pipeline work into clear portfolio case studies
 
 ---
 
 ## 📫 Connect With Me
 
-- LinkedIn: https://linkedin.com/in/naseer-aryobee
+- 🌐 Portfolio: [nasaryobee.com](https://nasaryobee.com)
+- 💼 LinkedIn: [linkedin.com/in/naseer-aryobee](https://linkedin.com/in/naseer-aryobee)
+- 📧 Email: Info@nasaryobee.com
