@@ -27,7 +27,7 @@ A data-driven dashboard analyzing the projected 10-year impact of the OBBB Act o
 - Multi-source federal data integration
 - Interactive dashboard for state-level exploration
 
-🔗 [Live dashboard](https://nasaryobee.com/OBBB_Impact_Dashboard_final.html)
+🔗 [GitHub repo](https://github.com/aryobeen007/OBBB-Healthcare-Impact-Analysis) · [Live dashboard](https://nasaryobee.com/OBBB_Impact_Dashboard_final.html)
 
 ---
 
@@ -59,6 +59,7 @@ Live platform helping users assess career readiness and career pathways.
 **Databases**
 - Microsoft SQL Server
 - PostgreSQL
+- MySQL
 
 **Data Engineering**
 - Databricks (Lakehouse, Workflows, Unity Catalog)
