@@ -54,6 +54,19 @@ Live platform helping users assess career readiness and career pathways.
 
 ---
 
+### 🐘 PostgreSQL DBA End-to-End Project
+An end-to-end PostgreSQL database administration project built on 9.6 million CMS Medicare records. Covers the full DBA discipline — schema design, performance baselining, index optimization, backup and recovery, health monitoring, role-based access control, row-level security, and audit logging.
+
+- Normalized schema design with staged bulk loading (9.6M rows, 57-second COPY)
+- Baseline diagnostics using pg_stat_statements and EXPLAIN ANALYZE
+- 5 targeted indexes with CREATE INDEX CONCURRENTLY — 4,136× improvement on Q2
+- Two-tier backup strategy: pg_dump (85% compression) + pg_basebackup with pg_verifybackup
+- RBAC with 4 least-privilege roles + Row-Level Security (54,351 of 1.17M rows visible to app user)
+- Trigger-based audit logging capturing full before/after data as JSONB
+
+🔗 [GitHub repo](https://github.com/aryobeen007/postgresql-dba-project) · [Live project page](https://nasaryobee.com/projects/postgresql-dba/)
+
+
 ## 🧰 Tech Stack
 
 **Databases**
