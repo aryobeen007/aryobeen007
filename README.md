@@ -67,6 +67,19 @@ An end-to-end PostgreSQL database administration project built on 9.6 million CM
 🔗 [GitHub repo](https://github.com/aryobeen007/postgresql-dba-project) · [Live project page](https://nasaryobee.com/projects/postgresql-dba/)
 
 
+### 🐬 MySQL DBA End-to-End Project
+An end-to-end MySQL database administration project built on publicly available EPA, CDC, and USDA datasets exploring the relationship between cancer rates and environmental factors across the U.S. Covers the full DBA discipline — star schema design, bulk data loading, performance optimization, backup and recovery, and role-based access control.
+
+- Star schema with 4 dimension tables and 10 fact tables — 22.7M rows loaded across 14 tables
+- Baseline diagnostics using EXPLAIN — Q4 identified as 9 min 42 sec full table scan on 15.3M rows
+- Composite indexes + CTE rewrites — Q4 improved 95.5%, Q5 improved 96.5%
+- Index audit via sys.schema_unused_indexes — dropped 11 unused indexes, diagnosed and resolved 2 regressions
+- Full backup and recovery with mysqldump --single-transaction — 2.18 GB backup, full restore verified across all 22.7M rows
+- RBAC with 3 least-privilege roles (db_readonly, db_analyst, db_etl) — no application user holds global privileges
+
+🔗 [GitHub repo](https://github.com/aryobeen007/mysql-dba-project) · [Live project page](https://nasaryobee.com/projects/mysql-dba/)
+
+
 ## 🧰 Tech Stack
 
 **Databases**
