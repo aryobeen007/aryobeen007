@@ -8,6 +8,18 @@ Database and Data Engineer with 10+ years of experience working with Microsoft S
 
 ## 🚀 Featured Projects
 
+### 🧬 Cancer & Environment Lakehouse
+An end-to-end Databricks Lakehouse project investigating potential associations between U.S. cancer rates and environmental, lifestyle, and water quality factors. Built on 52.8 million rows across 33 Delta tables from 5 federal agencies (CDC, EPA, USDA).
+- Databricks Workflows orchestration (25-task DAG, 16m 35s end-to-end)
+- Bronze → Silver → Gold Medallion Architecture with Unity Catalog & managed Volumes
+- Multi-factor Pearson correlation matrix across 17 environmental and lifestyle factors
+- Random Forest regression (R² = 0.81) and binary classifier (AUC = 1.0) using scikit-learn
+- Three Tableau Public dashboards: Cancer Overview, Water Quality Deep Dive, Environmental Risk Profile
+- Headline finding: COPD prevalence is the strongest cancer mortality predictor (**r = 0.885**); PM2.5 days emerged as top ML feature despite weak Pearson correlation (r = 0.199)
+
+🔗 [GitHub repo](https://github.com/aryobeen007/cancer-environment-lakehouse) · [Live project page](https://nasaryobee.com/projects/cancer-environment-lakehouse/) · [Tableau dashboards](https://public.tableau.com/app/profile/naseer3899/viz/CancerEnvironmentLakehouse/CancerEnvironmentOverview)
+
+
 ### 🏥 Medicare Provider Spending vs Quality Analysis
 An end-to-end Databricks medallion pipeline analyzing whether Medicare actually pays more for better hospital care. Built on 10 million CMS records across 13 Delta tables.
 
