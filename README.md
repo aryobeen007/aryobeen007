@@ -78,6 +78,16 @@ An end-to-end PostgreSQL database administration project built on 9.6 million CM
 
 🔗 [GitHub repo](https://github.com/aryobeen007/postgresql-dba-project) · [Live project page](https://nasaryobee.com/projects/postgresql-dba/)
 
+### 🔄 PostgreSQL to SQL Server Migration Project
+An end-to-end PostgreSQL to Microsoft SQL Server migration built on a CMS Medicare provider dataset. Covers the full migration discipline — source assessment, schema conversion, custom ETL, multi-layer validation, and honest performance tuning against the original system.
+- Full source inventory across 2 schemas, 5 tables, and 20.5M rows, flagging PostgreSQL-specific types (jsonb, inet) before conversion began
+- Pivoted from Microsoft's SSMA (discovered mid-project it no longer supports PostgreSQL) to a custom Python ETL — psycopg2 + pyodbc, ~20.5M rows migrated in under 15 minutes
+- Rewrote a generic PL/pgSQL audit trigger as native T-SQL using SQL Server 2025's JSON type and FOR JSON PATH, verified against real INSERT/UPDATE/DELETE tests
+- Three-layer validation — aggregate checksums, 4/4 constraint-enforcement tests, and query diffing — 100% match against the source
+- Baselined 6 representative queries; investigated a 2× regression with 4 separate tuning attempts, concluding a genuine structural bottleneck rather than forcing a fix
+- SQL Server faster on 4 of 6 baseline queries, backed by real execution-plan evidence
+🔗 [GitHub repo](https://github.com/aryobeen007/sqlserver-postgresql-migration) · [Live project page](https://nasaryobee.com/projects/postgresql-to-sqlserver/)
+
 
 ### 🐬 MySQL DBA End-to-End Project
 An end-to-end MySQL database administration project built on publicly available EPA, CDC, and USDA datasets exploring the relationship between cancer rates and environmental factors across the U.S. Covers the full DBA discipline — star schema design, bulk data loading, performance optimization, backup and recovery, and role-based access control.
