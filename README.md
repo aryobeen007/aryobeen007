@@ -66,6 +66,17 @@ Live platform helping users assess career readiness and career pathways.
 
 ---
 
+### 🗄️ SQL Server Enterprise DBA Project
+An end-to-end SQL Server database administration project built on 113.5 million rows of real NOAA climate data. Covers the full enterprise DBA discipline — performance tuning, backup and recovery, security, auditing and compliance, automation, high availability, and monitoring.
+- Deliberately unoptimized schema + 113.5M-row bulk load, then a composite clustered index cutting logical reads ~5,160× on the primary access pattern
+- Full/differential/log backup strategy meeting a 10-minute RPO, verified with a real point-in-time restore drill
+- TDE (AES-256), Row-Level Security, and Dynamic Data Masking — each tested with real permission checks, not just configured
+- SQL Server Audit + Change Tracking, and SQL Server Agent automation with real failure-notification testing
+- Always On Availability Group across two replicas on non-domain VMs — including recovering from a genuine split-brain incident during failover
+- DMV-based monitoring + Extended Events, proven by capturing a real 1.71s long-running query and a real deliberately-induced deadlock
+🔗 [GitHub repo](https://github.com/aryobeen007/sqlserver-enterprise-dba) · [Live project page](https://nasaryobee.com/projects/sqlserver-enterprise-dba/)
+
+---
 ### 🐘 PostgreSQL DBA End-to-End Project
 An end-to-end PostgreSQL database administration project built on 9.6 million CMS Medicare records. Covers the full DBA discipline — schema design, performance baselining, index optimization, backup and recovery, health monitoring, role-based access control, row-level security, and audit logging.
 
